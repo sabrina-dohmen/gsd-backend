@@ -1,0 +1,275 @@
+{
+    "body": [
+        {
+            "id": 1,
+            "name":"Enviar email al corresponsal",
+            "description": "Email: corresponsal@email.com",
+            "date": null,
+            "done": false,
+            "tag": { "id": 1, "name": "Trabajo", "color": "2980b9" },
+            "category": null
+        },
+        {
+            "id": 2,
+            "name":"Ir a la tienda por la compra de la semana",
+            "description": "Huevos, fruta, azucar",
+            "date": "2023-01-05T15:00:00.0000",
+            "done": false,
+            "tag": { "id": 2, "name": "Casa", "color": "c39bd3" },
+            "category": null
+        },
+        {
+            "id": 3,
+            "name": "Llamar al cliente X",
+            "description": "",
+            "date": null,
+            "done": false,
+            "tag": { "id": 3, "name": "Negocios", "color": "27ae60" },
+            "category": { "id": 1, "name": "Accionables" }
+        },
+        {
+            "id": 4,
+            "name": "Preparar presentación para reunión",
+            "description": "Incluir estadísticas y gráficos",
+            "date": "2023-02-15T09:30:00.0000",
+            "done": false,
+            "tag": { "id": 1, "name": "Trabajo", "color": "2980b9" },
+            "category": { "id": 3, "name": "Incubadura" }
+        },
+        {
+            "id": 5,
+            "name": "Investigar nuevos proveedores",
+            "description": "",
+            "date": null,
+            "done": false,
+            "tag": { "id": 3, "name": "Negocios", "color": "27ae60" },
+            "category": { "id": 1, "name": "Accionables" }
+        },
+        {
+            "id": 6,
+            "name": "Revisar contrato de arrendamiento",
+            "description": "",
+            "date": "2023-01-20T10:00:00.0000",
+            "done": false,
+            "tag": { "id": 2, "name": "Casa", "color": "c39bd3" },
+            "category": { "id": 2, "name": "Tickler file" }
+        },
+        {
+            "id": 7,
+            "name": "Planificar vacaciones familiares",
+            "description": "Destino: Playa",
+            "date": null,
+            "done": false,
+            "tag": { "id": 4, "name": "Personal", "color": "f39c12" },
+            "category": { "id": 3, "name": "Incubadura" }
+        },
+        {
+            "id": 8,
+            "name": "Investigar nuevas recetas de cocina",
+            "description": "",
+            "date": null,
+            "done": false,
+            "tag": { "id": 2, "name": "Casa", "color": "c39bd3" },
+            "category": { "id": 3, "name": "Incubadura" }
+        },
+        {
+            "id": 9,
+            "name": "Entrenamiento de equipo de fútbol",
+            "description": "",
+            "date": "2023-02-10T18:00:00.0000",
+            "done": false,
+            "tag": { "id": 5, "name": "Deportes", "color": "e74c3c" },
+            "category": { "id": 1, "name": "Accionables" }
+        },
+        {
+            "id": 10,
+            "name": "Preparar informe mensual de ventas",
+            "description": "",
+            "date": null,
+            "done": false,
+            "tag": { "id": 1, "name": "Trabajo", "color": "2980b9" },
+            "category": { "id": 1, "name": "Accionables" }
+        },
+        {
+            "id": 11,
+            "name": "Comprar regalos de cumpleaños",
+            "description": "",
+            "date": "2023-03-10T12:00:00.0000",
+            "done": false,
+            "tag": { "id": 2, "name": "Casa", "color": "c39bd3" },
+            "category": { "id": 2, "name": "Tickler file" }
+        },
+        {
+            "id": 12,
+            "name": "Investigar cursos en línea",
+            "description": "Tema: Marketing digital",
+            "date": null,
+            "done": false,
+            "tag": { "id": 6, "name": "Educación", "color": "3498db" },
+            "category": { "id": 3, "name": "Incubadura" }
+        },
+        {
+            "id": 13,
+            "name": "Configurar sistema de seguridad en casa",
+            "description": "Instalar cámaras y alarmas",
+            "date": null,
+            "done": false,
+            "tag": { "id": 2, "name": "Casa", "color": "c39bd3" },
+            "category": { "id": 3, "name": "Incubadura" }
+        },
+        {
+            "id": 14,
+            "name": "Revisar estado de cuentas bancarias",
+            "description": "",
+            "date": "2023-02-28T09:00:00.0000",
+            "done": false,
+            "tag": { "id": 1, "name": "Trabajo", "color": "2980b9" },
+            "category": { "id": 1, "name": "Accionables" }
+        },
+        {
+            "id": 15,
+            "name": "Organizar cena de negocios",
+            "description": "Invitar a socios principales",
+            "date": "2023-03-15T19:30:00.0000",
+            "done": false,
+            "tag": { "id": 1, "name": "Trabajo", "color": "2980b9" },
+            "category": { "id": 1, "name": "Accionables" }
+        },
+        {
+            "id": 16,
+            "name": "Actualizar el software del sistema",
+            "description": "Verificar compatibilidad con las aplicaciones",
+            "date": null,
+            "done": false,
+            "tag": { "id": 7, "name": "Tecnología", "color": "9b59b6" },
+            "category": { "id": 1, "name": "Accionables" }
+          },
+          {
+            "id": 17,
+            "name": "Hacer ejercicio en el gimnasio",
+            "description": "Rutina: Cardio y pesas",
+            "date": "2023-02-10T08:00:00.0000",
+            "done": false,
+            "tag": { "id": 5, "name": "Deportes", "color": "e74c3c" },
+            "category": { "id": 1, "name": "Accionables" }
+          },
+          {
+            "id": 18,
+            "name": "Reunión con el equipo de ventas",
+            "description": "Revisar objetivos y estrategias",
+            "date": "2023-03-01T14:00:00.0000",
+            "done": false,
+            "tag": { "id": 1, "name": "Trabajo", "color": "2980b9" },
+            "category": { "id": 1, "name": "Accionables" }
+          },
+          {
+            "id": 19,
+            "name": "Leer el último libro recomendado",
+            "description": "Título: 'El poder del hábito'",
+            "date": null,
+            "done": false,
+            "tag": { "id": 4, "name": "Personal", "color": "f39c12" },
+            "category": { "id": 3, "name": "Incubadura" }
+          },
+          {
+            "id": 20,
+            "name": "Revisar plan de ahorro para vacaciones",
+            "description": "Calcular presupuesto necesario",
+            "date": null,
+            "done": false,
+            "tag": { "id": 4, "name": "Personal", "color": "f39c12" },
+            "category": { "id": 3, "name": "Incubadura" }
+          },
+          {
+            "id": 21,
+            "name": "Actualizar el curriculum vitae",
+            "description": "",
+            "date": null,
+            "done": false,
+            "tag": { "id": 1, "name": "Trabajo", "color": "2980b9" },
+            "category": { "id": 3, "name": "Incubadura" }
+          },
+          {
+            "id": 22,
+            "name": "Configurar recordatorios en el teléfono",
+            "description": "Usar aplicación de gestión de tareas",
+            "date": null,
+            "done": false,
+            "tag": { "id": 7, "name": "Tecnología", "color": "9b59b6" },
+            "category": { "id": 3, "name": "Incubadura" }
+          },
+          {
+            "id": 23,
+            "name": "Completar el informe de gastos del mes",
+            "description": "",
+            "date": null,
+            "done": false,
+            "tag": { "id": 1, "name": "Trabajo", "color": "2980b9" },
+            "category": { "id": 1, "name": "Accionables" }
+          },
+          {
+            "id": 24,
+            "name": "Revisar y responder correos electrónicos",
+            "description": "",
+            "date": null,
+            "done": false,
+            "tag": { "id": 1, "name": "Trabajo", "color": "2980b9" },
+            "category": { "id": 1, "name": "Accionables" }
+          },
+          {
+            "id": 25,
+            "name": "Organizar la habitación",
+            "description": "Limpiar y ordenar",
+            "date": null,
+            "done": false,
+            "tag": { "id": 2, "name": "Casa", "color": "c39bd3" },
+            "category": { "id": 3, "name": "Incubadura" }
+          },
+          {
+            "id": 26,
+            "name": "Comprar boletos para el cine",
+            "description": "Película: Estreno de la semana",
+            "date": "2023-02-20T18:30:00.0000",
+            "done": false,
+            "tag": { "id": 4, "name": "Personal", "color": "f39c12" },
+            "category": { "id": 2, "name": "Tickler file" }
+          },
+          {
+            "id": 27,
+            "name": "Participar en el evento de networking",
+            "description": "Ampliar la red de contactos",
+            "date": "2023-03-05T17:00:00.0000",
+            "done": false,
+            "tag": { "id": 3, "name": "Negocios", "color": "27ae60" },
+            "category": { "id": 1, "name": "Accionables" }
+          },
+          {
+            "id": 28,
+            "name": "Preparar el almuerzo para llevar al trabajo",
+            "description": "Sándwich y fruta",
+            "date": "2023-02-10T07:30:00.0000",
+            "done": false,
+            "tag": { "id": 1, "name": "Trabajo", "color": "2980b9" },
+            "category": { "id": 1, "name": "Accionables" }
+          },
+          {
+            "id": 29,
+            "name": "Investigar nuevas estrategias de marketing",
+            "description": "Enfoque en redes sociales",
+            "date": null,
+            "done": false,
+            "tag": { "id": 6, "name": "Educación", "color": "3498db" },
+            "category": { "id": 3, "name": "Incubadura" }
+          },
+          {
+            "id": 30,
+            "name": "Investigar nuevas estrategias de desarrollo",
+            "description": "Enfoque en redes sociales",
+            "date": null,
+            "done": false,
+            "tag": null,
+            "category": { "id": 3, "name": "Incubadura" }
+          }
+    ],
+    "message":"Ok"
+}
