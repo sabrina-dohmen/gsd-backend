@@ -10,8 +10,8 @@ export class Category {
 	@Column({ name:'Name', type:'varchar', length:10, nullable:false })
 	name: string;
 
-	@Column({ name:'Desription', type:'varchar', length:6, nullable:false })
-	color: string;
+	// @Column({ name:'Desription', type:'varchar', length:6, nullable:false })
+	// color: string;
 
     @OneToMany(() => Task, (task) => task.category)
     task: Task;
