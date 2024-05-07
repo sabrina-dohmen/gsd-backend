@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { CreateCategoryDto } from './dto/create-category.dto';
 import { UpdateCategoryDto } from './dto/update-category.dto';
 import { InjectRepository } from '@nestjs/typeorm';
@@ -13,27 +13,22 @@ export class CategoryService {
     private readonly categoryRepository: Repository<Category>,
   ){}
 
-
-  create(createCategoryDto: CreateCategoryDto) {
-    return 'This action adds a new category';
-  }
-
   async findAllCategories() {
     const categoryDB = await this.categoryRepository.createQueryBuilder('Category')
-      // .select('Category')
+      .select(['Category.id', 'Category.name', 'Category.code'])
       .getMany();
     return categoryDB;
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} category`;
+  async findCategoryByCode(code: string) {
+    const codeList = await this.findAllCategories();
+    if(!codeList.find(element => element.code == code)) throw new InternalServerErrorException('Incorrect code, please enter another');
+
+    const categoryDB = await this.categoryRepository.createQueryBuilder('Category')
+      .select(['Category.id', 'Category.name', 'Category.code'])
+      .where('Category.code = :code', {code: code})
+      .getOne();
+    return categoryDB;
   }
 
-  update(id: number, updateCategoryDto: UpdateCategoryDto) {
-    return `This action updates a #${id} category`;
-  }
-
-  remove(id: number) {
-    return `This action removes a #${id} category`;
-  }
 }

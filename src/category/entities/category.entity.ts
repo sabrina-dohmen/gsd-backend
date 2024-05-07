@@ -7,11 +7,11 @@ export class Category {
     @PrimaryGeneratedColumn('increment', { name:'id'})
 	id: number;
 
-	@Column({ name:'Name', type:'varchar', length:10, nullable:false })
+	@Column({ name:'Name', type:'varchar', length:20, nullable:false })
 	name: string;
 
-	// @Column({ name:'Desription', type:'varchar', length:6, nullable:false })
-	// color: string;
+    @Column({ name:'Code', type:'varchar', length:1, nullable:false })
+	code: string;
 
     @OneToMany(() => Task, (task) => task.category)
     task: Task;
